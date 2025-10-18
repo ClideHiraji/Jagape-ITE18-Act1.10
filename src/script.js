@@ -34,12 +34,12 @@ cubeTextureLoader.crossOrigin = 'anonymous'
 let environmentMapTexture;
 try {
     environmentMapTexture = cubeTextureLoader.load([
-        '/textures/environmentMaps/3/px.jpg',
-        '/textures/environmentMaps/3/nx.jpg',
-        '/textures/environmentMaps/3/py.jpg',
-        '/textures/environmentMaps/3/ny.jpg',
-        '/textures/environmentMaps/3/pz.jpg',
-        '/textures/environmentMaps/3/nz.jpg'
+        'https://raw.githubusercontent.com/ClideHiraji/Jagape-ITE18-Act1.10/main/static/textures/environmentMaps/3/px.jpg',
+        'https://raw.githubusercontent.com/ClideHiraji/Jagape-ITE18-Act1.10/main/static/textures/environmentMaps/3/nx.jpg',
+        'https://raw.githubusercontent.com/ClideHiraji/Jagape-ITE18-Act1.10/main/static/textures/environmentMaps/3/py.jpg',
+        'https://raw.githubusercontent.com/ClideHiraji/Jagape-ITE18-Act1.10/main/static/textures/environmentMaps/3/ny.jpg',
+        'https://raw.githubusercontent.com/ClideHiraji/Jagape-ITE18-Act1.10/main/static/textures/environmentMaps/3/pz.jpg',
+        'https://raw.githubusercontent.com/ClideHiraji/Jagape-ITE18-Act1.10/main/static/textures/environmentMaps/3/nz.jpg'
     ])
     scene.background = environmentMapTexture
 } catch (error) {
